@@ -5,6 +5,7 @@
 ### php-basic 
 * PHP自动加载  `autoload/lib/*`
 * PHP正则 `regexp.php`
+* PHP错误和异常处理 `handleError/phperr.php`、`handleError/phpexception.php`
 
 ### oop
 

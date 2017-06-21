@@ -2,7 +2,7 @@
 
 try {
     $redis = new Redis(); 
-    $t = $redis->connect('127.0.0.1', 6379); 
+    $t = $redis->connect('127.0.0.1', 63799); 
     var_dump($t);
     //echo "Connection to server sucessfully"; 
     //check whether server is running or not 

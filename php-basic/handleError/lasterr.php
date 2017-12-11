@@ -13,9 +13,12 @@ function handleFatalPhpError() {
          echo "Can do custom output and/or logging for fatal error here...";
      }
 }
-echo $aa;
-trigger_error('Something serious', E_USER_ERROR);
 
+
+trigger_error('Something serious', E_USER_ERROR);
+// 
+$a=0;
+1/$a;
 
 /*
 PHP Fatal error:  Something serious in /home/vagrant/Code/GitPro/php/php-basic/handleError/lasterr.php on line 17

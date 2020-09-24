@@ -1,0 +1,10 @@
+{
+    "name": "algo demo",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Algo\\": "./"
+        }
+    }
+}
